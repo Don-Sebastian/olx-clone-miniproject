@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.alignItemCenter {
+/*  */
+/*.alignItemCenter {
   justify-content: space-between;
   align-items: center;
 }
