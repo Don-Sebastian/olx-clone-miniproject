@@ -15,6 +15,7 @@ export default function Signup() {
   const [password, setPassword] = useState('')
   const { firebase } = useContext(FirebaseContext)
   
+  
   const handleSubmit = (e) => { 
     e.preventDefault();
     firebase.auth().createUserWithEmailAndPassword(email, password).then((result) => {
